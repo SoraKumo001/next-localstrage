@@ -1,10 +1,10 @@
 import { useState } from "react";
 import {
-  setLocalStrage,
+  setLocalStorage,
   useGlobalState,
 } from "@react-libraries/use-global-state";
 
-setLocalStrage();
+setLocalStorage();
 
 const A = () => {
   const [a, setA] = useGlobalState("a", "");
